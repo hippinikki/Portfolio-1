@@ -1,31 +1,30 @@
-.inline-block {
-    background-color: black;
+body {
+    background-color: cadetblue;
+}
+#heroGrid {
+    margin: 0px 5%;
     display: inline-block;
-    vertical-align: top;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-rows: 75% 25%;
 }
 .logo {
-    width:23%;
-    padding: 1%;
-    text-align:center;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
 }
-.navigation {
-    width: 73%;
-    padding: 1%;
+.navMenu {
+    margin: top 10px;
+    justify-content: flex-end;
+    font-family: 'Quicksand', sans-serif;
 }
-.footer {
-    width: 50%;
-    margin: left auto;
+
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
 }
-.content {
-    width:50px;
-    margin:0 auto;
-}
-.footer {
-    background-color: #373738;
-}
-.ul {
-    padding: 30px;
-}
-.li{
-    padding: 20px;
+h2 {
+    font-family: 'Radley', serif;
 }
