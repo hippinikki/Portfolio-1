@@ -1,5 +1,5 @@
 body {
-    background-color: cadetblue;
+    background-color: #AADDD9;
 }
 #heroGrid {
     margin: 0px 5%;
@@ -17,8 +17,8 @@ body {
     margin: top 10px;
     justify-content: flex-end;
     font-family: 'Quicksand', sans-serif;
+    color: #006365;
 }
-
 img {
     border: 0;
     max-width: 100%;
@@ -27,4 +27,13 @@ img {
 }
 h2 {
     font-family: 'Radley', serif;
+    color: #006365;
+}
+h1 {
+    font-family: 'Radley', serif;
+    color: #006365;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: #006365;
 }
